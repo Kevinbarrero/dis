@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login and Register</title>
+    <style type="text/css">
+
+        #container{
+            background-image: url("https://www.footballmanager.com/themes/custom/fm2022transition/img/components/hp-copy-2022/bg-sm.svg");
+            justify-content: space-around;
+            border: 3px solid blue;
+            padding: 30px
+
+        }
+        label{
+            width:130px;
+            display: inline-block
+        }
+        form {
+            margin:auto;
+            width:20%;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1 style="color: aliceblue">Welcome to the login!</h1>
+    </header>
+    <form id="formulary" action="http://localhost:9999/feed" method="post">
+        <p style="color: aliceblue">
+            Username: <input type="text" name="login">
+        </p>
+        <p style="color: aliceblue">
+            Password: <input type="password" name="password"/>
+        </p>
+        <input type="submit" value="--" />
+        <br>
+        <button onclick="b()" style="background-color: #35bf5c"> OK </button>
+
+
+    </form>
+    <a href="http://localhost:9999/home">
+        <button>GO BACK</button>
+    </a>
+</div>
+<script>
+    function b(){
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", 'feed.html',true)
+        xhr.onreadystatechange = function(){
+            if((xhr.status == 200) && (xhr.readyState==4)){
+                alert('ok');
+            }else if(xhr.status != 200){
+                alert('error');
+            }
+        }
+        xhr.send()
+    }
+</script>
+</body>
+</html>

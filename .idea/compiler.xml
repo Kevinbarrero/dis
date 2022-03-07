@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Lab3" />
+        <module name="Demo" />
+        <module name="Semestrobka2" />
+        <module name="s2_lab1" />
+        <module name="s2_lab2" />
+        <module name="UberJson" />
+        <module name="s2_lab3p" />
+        <module name="lab1" />
+        <module name="lab2" />
+        <module name="Calculator" />
+        <module name="PostgrestConnect" />
+        <module name="semestrobka" />
+        <module name="lab5" />
+        <module name="Exam" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pruebitas" target="11" />
+      <module name="s2_lab3-p" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
