@@ -4,12 +4,15 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Demo" />
     <file type="web" url="file://$PROJECT_DIR$/lab5" />
+    <file type="web" url="file://$PROJECT_DIR$/S2Lab3Spring" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/lab3Spring/pom.xml" />
+        <option value="$PROJECT_DIR$/S2Lab3Spring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -20,5 +23,8 @@
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
   </component>
 </project>

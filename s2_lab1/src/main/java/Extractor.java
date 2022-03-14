@@ -2,7 +2,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 public class Extractor {
-    public static String PATH_FOR_SCAN = "exercise";
+    public static String PATH_FOR_SCAN = "homework";
 
     public static void main(String[] args) {
         List<Class<?>> classList = PathScan.find(PATH_FOR_SCAN);

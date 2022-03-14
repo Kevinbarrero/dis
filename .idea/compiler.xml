@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="S2Lab3Spring" />
         <module name="Lab3" />
         <module name="Demo" />
         <module name="Semestrobka2" />
         <module name="s2_lab1" />
         <module name="s2_lab2" />
         <module name="UberJson" />
+        <module name="lab3Spring" />
         <module name="s2_lab3p" />
         <module name="lab1" />
         <module name="lab2" />
@@ -27,5 +29,11 @@
       <module name="pruebitas" target="11" />
       <module name="s2_lab3-p" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="S2Lab3Spring" options="-parameters" />
+      <module name="lab3Spring" options="-parameters" />
+    </option>
   </component>
 </project>
