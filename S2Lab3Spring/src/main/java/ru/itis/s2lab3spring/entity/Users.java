@@ -14,7 +14,7 @@ public class Users{
     @Setter
     private Long id;
 
-    @Column(name = "name")
+    @Column(name = "nam")
     @Getter
     @Setter
     private String name;

@@ -24,6 +24,7 @@ public class CRUDOperations {
         entityManager.getTransaction().commit();
         entityManager.close();
     }
+
     public ArrayList<String> columnNamesInClass(Class<?> classname){
         ArrayList<String> names = new ArrayList<>();
         for (Field f: classname.getDeclaredFields()) {
